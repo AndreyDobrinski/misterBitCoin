@@ -1,0 +1,13 @@
+.contact-list{
+    // width: 20vw;
+    // display: grid;
+    // grid-template-columns: 400px 400px 400px 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 500px) {
+    .contact-list {
+      flex-direction: column;
+    }
+}

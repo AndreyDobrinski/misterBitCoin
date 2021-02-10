@@ -1,0 +1,29 @@
+<div class="contact-edit">
+    <div class="contact-btns">
+        <button *ngIf="contact._id" (click)="onDeleteContact()">Delete</button>
+        <button [routerLink]="contact._id?['/contact',contact._id]:['/contacts']">Back</button>
+    </div>
+    <div>
+        <h4>{{msg}}</h4>
+        <form #form="ngForm" (ngSubmit)="onSubmitForm(form.value)">
+
+            <div class="contact-edit-input">
+                <label for="">Name : </label>
+                <input required [(ngModel)]="contact.name" placeholder="Name" type="text" name="name" autocomplete="off" spellcheck="false">
+            </div>
+
+            <div class="contact-edit-input">
+                <label for="">Phone: </label>
+                <input  #phone="ngModel" required [(ngModel)]="contact.phone" placeholder="Phone" type="phone" name="phone" autocomplete="off">
+            </div>
+
+            <div class="contact-edit-input">
+                <label for="">Email : </label>
+                <input  #email="ngModel" required [(ngModel)]="contact.email" placeholder="Email" type="email" name="email" autocomplete="off">
+            </div>
+
+            <button type="submit">Save</button>
+
+        </form>
+    </div>
+</div>

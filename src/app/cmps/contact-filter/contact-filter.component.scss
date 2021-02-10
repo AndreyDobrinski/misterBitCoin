@@ -1,0 +1,23 @@
+.contact-filter{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    input {
+        border: none;
+        outline: none;
+        padding: 10px;
+        background-color: rgb(199, 198, 198);
+    }
+    button{
+        outline: none;
+        border: none;
+        background-color: gray;
+        padding: 10px;
+        color: black;
+        &:hover{
+            cursor: pointer;
+            background-color: rgb(70, 70, 70);
+            color: white;
+        }
+    }
+}

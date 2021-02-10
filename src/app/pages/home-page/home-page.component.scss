@@ -1,0 +1,34 @@
+.home {
+  h1 {
+    color: white;
+    margin-left: 10px;
+  }
+  .home-coins {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  p {
+    color: white;
+    margin: 0px;
+    font-size: 22px;
+  }
+  .home-bit {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .home-bit2 {
+    display: flex;
+    // margin-left: 10px;
+    p{
+      // border-bottom: 1px solid white;
+        margin-bottom: 10px;
+    }
+  }
+}
+
+img {
+  margin: 0px 10px;
+  width: 30px;
+  height: 30px;
+}

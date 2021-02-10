@@ -1,0 +1,74 @@
+.contact-edit{
+    h4{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+    }
+    .contact-btns{
+        button{
+            border: none;
+            padding: 8px;
+            margin-right: 10px;
+            margin-left: 10px;
+            background-color: rgb(155, 155, 155);
+            width: 70px;
+            outline: none;
+
+        
+            &:hover{
+                cursor: pointer;
+                color: white;
+            }
+        }
+    }
+    
+    form{ 
+        .contact-edit-input{
+            margin-bottom: 10px;
+
+            label{
+                font-size: 22px;
+                margin-left: 10px;
+                color: white;
+                
+            }
+            input{
+                border: none;
+                padding: 7px;
+                background-color: rgb(228, 228, 228);
+                width: 300px;
+                outline: none;
+            }
+
+            
+        }
+
+
+
+
+        button{
+            border: none;
+            padding: 8px;
+            margin: 10px;
+            outline: none;
+            background-color: rgb(155, 155, 155);
+            width: 70px;
+        
+            &:hover{
+                cursor: pointer;
+                color: white;
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
